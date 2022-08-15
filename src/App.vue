@@ -3,7 +3,7 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Vitesse',
+  title: 'PDF编辑器-v0.0.1 [在线盖章]',
   meta: [
     { name: 'description', content: 'Opinionated Vite Starter Template' },
     {
