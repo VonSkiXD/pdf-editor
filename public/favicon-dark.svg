@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M27.562 26L17.17 8.928l2.366-3.888L17.828 4L16 7.005L14.17 4l-1.708 1.04l2.366 3.888L4.438 26H2v2h28v-2zM16 10.85L25.22 26H17v-8h-2v8H6.78z" fill="white" />
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>Layer 1</title>
+    <rect id="svg_10" height="5.24999" width="20.49995" y="2.43754" x="3.00004" stroke-width="0" stroke="#FFF"
+          fill="#ffffff"/>
+    <rect id="svg_11" height="28.87492" width="1" y="0.68754" x="4.12503" stroke-width="0" stroke="#FFF"
+          fill="#ffffff"/>
+    <rect id="svg_12" height="8.24998" width="29.49992" y="20.81249" x="1.37504" stroke-width="0" stroke="#FFF"
+          fill="#ffffff"/>
+    <rect id="svg_13" height="3.74999" width="9.62497" y="13.68751" x="3.37504" stroke-width="0" stroke="#FFF"
+          fill="#ffffff"/>
+  </g>
 </svg>

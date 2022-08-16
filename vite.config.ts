@@ -14,6 +14,8 @@ import LinkAttributes from 'markdown-it-link-attributes'
 import Unocss from 'unocss/vite'
 import Shiki from 'markdown-it-shiki'
 
+// TODO @JunFeng 需要 "在 vite.config.ts 更改主机名"
+
 export default defineConfig({
   resolve: {
     alias: {
@@ -92,7 +94,7 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
+      includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Vitesse',
         short_name: 'Vitesse',
@@ -104,13 +106,8 @@ export default defineConfig({
             type: 'image/png',
           },
           {
-            src: '/pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-          },
-          {
-            src: '/pwa-512x512.png',
-            sizes: '512x512',
+            src: '/pwa-192x192.png',
+            sizes: '192x192',
             type: 'image/png',
             purpose: 'any maskable',
           },
