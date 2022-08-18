@@ -35,11 +35,10 @@ onMounted(() => {
       下载
     </button> -->
     <canvas ref="canItem" width="1920" height="1080" />
-    <img src="/favicon.svg" alt="1">
   </div>
 </template>
 
-<route lang="yaml">
+<!-- <route lang="yaml">
 meta:
   layout: default
-</route>
+</route> -->
