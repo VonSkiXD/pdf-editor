@@ -10,7 +10,7 @@ async function renderPdf() {
   const pdf = await loadingTask
   const firstPageNumber = 1
   const page = await pdf.getPage(firstPageNumber)
-  const scale = 1.5
+  const scale = 1.3
   const viewport = page.getViewport({ scale })
 
   const canvasC = canItem.value.getContext('2d')
@@ -38,7 +38,7 @@ onMounted(() => {
   </div>
 </template>
 
-<!-- <route lang="yaml">
+<route lang="yaml">
 meta:
   layout: default
-</route> -->
+</route>
